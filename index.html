@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adithya Reddy | About Me</title>
+    <meta
+      name="description"
+      content="Personal website for Adithya Reddy, featuring background, interests, projects, and contact links."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Adithya Reddy</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">About Me</p>
+          <h1>Hi, I am Adithya.</h1>
+          <p>
+            I am interested in software, product ideas, and building simple
+            things that feel useful. This is a small personal space for my
+            background, projects, and notes.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>A quick introduction.</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            I like learning by making things. My work usually starts with a
+            simple question, then turns into a small website, tool, or prototype
+            that helps me understand the idea better.
+          </p>
+          <p>
+            Outside of projects, I am usually exploring technology, design,
+            business ideas, and the habits that make good work more consistent.
+          </p>
+        </div>
+      </section>
+
+      <section class="section muted" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Work</p>
+          <h2>Things I am building.</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Personal Website</h3>
+            <p>A clean place to collect my story, interests, and links.</p>
+          </article>
+          <article class="card">
+            <h3>Project Experiments</h3>
+            <p>Small builds for practicing web development and product thinking.</p>
+          </article>
+          <article class="card">
+            <h3>Learning Notes</h3>
+            <p>Short notes from topics I am studying and tools I am trying.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us connect.</h2>
+          <p>
+            Add your email, LinkedIn, GitHub, or any other link here when you
+            are ready.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:your.email@example.com">Email Me</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year">2026</span> Adithya Reddy. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
